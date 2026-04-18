@@ -1,0 +1,32 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets (API keys)
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_runtime/
+
+# Hugging Face / local caches (do not commit)
+.hf_cache/
+.cache/
+
+# Task 5 fine-tuned weights (large; regenerate from notebook)
+Tasks/Task_5_Mental_Health/mental_health_distilgpt2/
+
+# Local data copies (keep repo tidy if you later add larger files)
+*.zip
+*.tar.gz
